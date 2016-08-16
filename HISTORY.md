@@ -1,3 +1,9 @@
+
+2.1.0 / 2016-08-16
+==================
+
+  * Merge pull request #4 from segment-integrations/update/ecommerce-v2
+  * update analytics.js deps
 2.0.0 / 2016-06-21
 ==================
 
