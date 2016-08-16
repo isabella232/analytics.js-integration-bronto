@@ -70,14 +70,14 @@ describe('Bronto', function() {
       analytics.page();
     });
 
-    describe('#completedOrder', function() {
+    describe('#orderCompleted', function() {
       beforeEach(function() {
         analytics.stub(bronto.bta, 'addOrder');
       });
 
       it('should send ecommerce data', function() {
         analytics.identify({ email: 'lance@segment.io' });
-        analytics.track('completed order', {
+        analytics.track('order completed', {
           products: [{ sku: 'c546c96', quantity: 8, name: 'my-product', price: 99.99 }],
           orderId: '55c497bf'
         });
